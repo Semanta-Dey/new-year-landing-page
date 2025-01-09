@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 header{
     background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17,0) 100%), 
               url('../images/Banner Image.png');
@@ -39,10 +40,36 @@ header > div{
 /* Main Section */
 
 .container1{
-    display: flex;
+    /* display: flex; */
     height: 500px;
-    width: 40px;
-    background-color: aqua;
-    flex-direction: column;
+    width: 300px;
+    /* background-color: aqua; */
+    /* flex-direction: column;
     justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: auto;
+}
+#off{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+}
+#holiday{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+}
+#category{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+}
+.content > img{
+    /* height: 500px; */
+    width: 300px;
+    background-size: cover;
 }
