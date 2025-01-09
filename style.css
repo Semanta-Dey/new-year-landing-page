@@ -5,9 +5,9 @@ header{
               url('../images/Banner Image.png');
     /* background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
     background-image: url("../images/Banner Image.png"); */
-    height: 800px;
+    /* height: 800px; */
     background-repeat: no-repeat;
-    height: 600px;
+    /* height: 600px; */
     border-radius: 16px;
     /* position: absolute; */
     /* padding: 50px 130px; */
@@ -72,4 +72,101 @@ font-weight: 700;
     /* height: 500px; */
     width: 300px;
     background-size: cover;
+}
+.container2{
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17,0) 100%), 
+              url('../images/Vectorrr.png');
+    /* background-repeat: no-repeat; */
+    display: flex;
+    margin: 30px 70px;
+    border-radius: 16px;
+}
+.P{
+    width: 70%;
+}
+.P > h2{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 44px;
+font-weight: 900;
+padding: 126px 298px 0px 90px;
+}
+.P p{
+    color: rgba(255, 255, 255, 0.8);
+font-family: Inter;
+font-size: 10px;
+font-weight: 400;
+padding: 0px 298px 5px 90px;
+}
+.image  img {
+    height:80%;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+#join{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+padding: 0px 298px 5px 120px;
+}
+ .container3{
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+margin: 30px 70px;
+
+display: flex;
+flex-direction: column;
+}
+.page4{
+  font-family: Inter;
+  font-weight: 600;
+  text-align: center;
+  padding:30px 50px;
+
+}
+.red-color{
+    color: rgb(255, 0, 0);
+}
+button{
+    border-radius: 2px;
+    background: rgb(237, 22, 22);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px rgb(3, 3, 3);
+}
+.join-btn{
+    display: flex;
+    justify-content: center;
+   padding: 0px 5px 40px;
+} 
+
+.container4{
+    display: flex;
+    margin: 30px 70px;
+    border-radius: 16px;
+}
+.para1{
+    width: 33%;
+}
+
+.photo-4 > img{
+    width: 95%; 
+    padding: 5px;
+    border-radius: 50%;
+}
+.photo-4{
+    border: 5px solid red;
+    height: 100%;
+    width: 25%;
+    border-radius: 50%;
+}
+.para2{
+    width: 35%;
 }
